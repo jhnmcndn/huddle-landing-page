@@ -8,4 +8,9 @@
 
 html {
   font-size: 62.5%;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

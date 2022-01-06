@@ -1,3 +1,30 @@
 @import "globals";
 @import "variables";
 
+header {
+  border: 1px solid black;
+  padding: 0 2.5em 0 2.5em;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4em;
+    img {
+      max-width: 55%;
+    }
+
+    button {
+      font-family: $poppins;
+      font-size: 1.4rem;
+      color: $darkCyan;
+      background-color: white;
+      padding: 0.1em 2em;
+      border-radius: 20px;
+      // border: none;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+}
