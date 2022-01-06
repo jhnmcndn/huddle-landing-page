@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "mappings": "AEAA,OAAO,CAAC,2GAAI;AAAZ,OAAO,CAAC,2GAAI;ADEZ,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,KAAK;CACjB",
     "sources": [
         "../app/scss/main.scss",
         "../app/scss/_globals.scss",
+        "../app/scss/_variables.scss",
         "../app/scss/_variables.scss"
     ],
     "names": [],
