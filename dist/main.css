@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10,15 +12,73 @@
 html {
   font-size: 62.5%;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
 
+.btn-calltToAction1 {
+  border: none;
+  text-align: center;
+  color: #00252e;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 28px;
+  -webkit-box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+          box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+  padding: 1rem 4rem;
+}
+
+.btn-callToAction2 {
+  font-weight: 700;
+  width: 300px;
+  padding: 1.5rem 1.2rem;
+  background-color: #ff52bf;
+  color: #fff;
+  border-radius: 28px;
+  border: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+}
+
+p,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+.message-header h1 {
+  font-size: 4rem;
+}
+
+.message-header p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.margin {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
 header {
-  border: 1px solid black;
-  padding: 0 2.5em 0 2.5em;
+  height: 100vh;
 }
 
 header nav {
@@ -31,23 +91,44 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 4em;
+  padding-top: 40px;
 }
 
-header nav img {
-  max-width: 55%;
+header .logo-header img {
+  width: 150px;
 }
 
-header nav button {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
-  color: #00252e;
-  background-color: white;
-  padding: 0.1em 2em;
-  border-radius: 20px;
+.container-header {
+  background-color: #ebfbff;
+  background-image: url(/images/bg-hero-desktop.svg);
 }
 
-img {
-  max-width: 100%;
+.content-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+.content-header .message-header {
+  margin-top: 5%;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.content-header .message-header p {
+  margin-top: 30px;
+}
+
+.content-header .message-header button {
+  margin-top: 30px;
+}
+
+.content-header .heroImg-header {
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
 }
 /*# sourceMappingURL=main.css.map */

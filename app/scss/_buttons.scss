@@ -1,0 +1,22 @@
+@import "variables";
+
+.btn-calltToAction1 {
+  border: none;
+  text-align: center;
+  color: $darkCyan;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 28px;
+  box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+  padding: 1rem 4rem;
+}
+
+.btn-callToAction2 {
+  font-weight: 700;
+  width: 300px;
+  padding: 1.5rem 1.2rem;
+  background-color: #ff52bf;
+  color: #fff;
+  border-radius: 28px;
+  border: none;
+}
