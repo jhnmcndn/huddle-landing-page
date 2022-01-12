@@ -12,13 +12,71 @@ button {
   font-family: $openSans;
 }
 
+p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
 .message-header {
   h1 {
     font-size: 4rem;
   }
+}
+
+main ul li {
+  h2 {
+    font-size: 3rem;
+  }
 
   p {
-    font-size: 1.8rem;
-    line-height: 1.4;
+    color: $grayishBlue;
+    line-height: 1.5;
+  }
+}
+
+footer {
+  p {
+    color: $paleCyan;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+}
+
+.more-links a {
+  font-family: $openSans;
+  text-decoration: none;
+  color: $paleCyan;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+
+@media (max-width: 1480px) {
+  .message-header h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1290px) {
+  .message-header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1105px) {
+  .message-header {
+    h1 {
+      font-size: 2.9rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .message-header h1 {
+    font-size: 2.3rem;
   }
 }
