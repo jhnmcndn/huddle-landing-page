@@ -40,6 +40,10 @@ footer {
     font-size: 1.4rem;
     line-height: 1.5;
   }
+
+  h3 {
+    font-size: 3.5rem;
+  }
 }
 
 .more-links a {
@@ -49,8 +53,6 @@ footer {
   font-size: 1.6rem;
   font-weight: 400;
 }
-
-
 
 @media (max-width: 1480px) {
   .message-header h1 {
@@ -73,10 +75,141 @@ footer {
       font-size: 1.6rem;
     }
   }
+
+  main {
+    h2 {
+      font-size: 2.3rem !important;
+    }
+
+    p {
+      font-size: 1.6rem;
+    }
+  }
 }
 
 @media (max-width: 1070px) {
   .message-header h1 {
     font-size: 2.3rem;
+  }
+}
+
+//bottom box btn-to-call
+@media (max-width: 1673px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 3.4rem;
+    }
+  }
+}
+
+@media (max-width: 1634px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 3.3rem;
+    }
+  }
+}
+
+@media (max-width: 1594px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+@media (max-width: 1554px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 3.1rem;
+    }
+  }
+}
+
+@media (max-width: 1514px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 1474px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.9rem;
+    }
+  }
+}
+
+@media (max-width: 1435px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.8rem;
+    }
+  }
+}
+
+@media (max-width: 1395px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+@media (max-width: 1355px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+@media (max-width: 1315px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 1156px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2.1rem;
+    }
+  }
+}
+
+@media (max-width: 1117px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1077px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+@media (max-width: 1037px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 997px) {
+  .box-btnToCall-footer {
+    h3 {
+      font-size: 1.7rem;
+    }
   }
 }
