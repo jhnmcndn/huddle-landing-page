@@ -380,7 +380,7 @@ footer .content-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 5%;
+  margin: 0 5% !important;
 }
 
 .box-btnToCall-footer {
@@ -421,7 +421,7 @@ footer .content-footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 350px;
+  max-width: 300px;
 }
 
 .left-content .logo-footer {
@@ -485,7 +485,7 @@ footer .content-footer {
 
 .copyright {
   position: absolute;
-  right: 0;
+  right: 5%;
 }
 
 .copyright p {
