@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://huddle-landing-page-three-delta.vercel.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-3at7x59mx)
+- Live Site URL: [Website](https://huddle-landing-page-three-delta.vercel.app/)
 
 ## My process
 
