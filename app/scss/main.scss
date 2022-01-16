@@ -116,7 +116,7 @@ li {
 footer {
   position: relative;
   padding: 200px 20px 65px 20px;
-  width: 100%;
+  min-width: 100%;
   .content-footer {
     display: flex;
     justify-content: space-between;
